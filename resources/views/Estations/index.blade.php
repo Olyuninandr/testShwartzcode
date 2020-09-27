@@ -2,7 +2,7 @@
 @section('content')
     <div class="d-flex justify-content-left">
         <a href="{{ route('estationAdd') }}">
-            <button type="button" class=" ml-4 btn btn-primary">Добавить станцию</button>
+            <button type="button" class=" ml-4 btn btn-primary">Додати станцію</button>
         </a>
     </div>
     <br>
@@ -28,9 +28,9 @@
                     </div>
                 </div>
                 <div class="col-auto">
-                    <button type="submit" class="btn btn-primary mb-2">Выбрать</button>
+                    <button type="submit" class="btn btn-primary mb-2">Вибрати</button>
                     <a href="{{ route('estations') }}">
-                        <button type="button" class="ml-3 btn btn-danger mb-2">Сбросить</button>
+                        <button type="button" class="ml-3 btn btn-danger mb-2">Скинути</button>
                     </a>
             </div>
             </div>
@@ -43,7 +43,7 @@
         <table class="table">
             <thead class="thead-dark">
             <tr>
-                <th scope="col">Город</th>
+                <th scope="col">Місто</th>
                 <th scope="col">Адреса</th>
                 <th scope="col">Робочі години</th>
                 <th scope="col"></th>

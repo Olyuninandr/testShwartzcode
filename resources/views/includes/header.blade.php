@@ -4,7 +4,6 @@
         <a class="p-2 text-dark" href="{{ route('estations') }}">
             <button type="button" class="btn btn-default">Главная</button>
         </a>
-        
 
     </nav>
 </div>

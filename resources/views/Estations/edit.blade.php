@@ -28,25 +28,11 @@
             <div class="row">
                 <div class="col">
                     <label for="openingTime">Часи роботи з:</label>
-                    <select name="openingTime" id="openingTime" class="form-control">
-                        @for($i=0; $i<=24; $i++)
-                            <option value="{{ $i }}"
-                                    @if($estation->openingTime == $i) selected @endif
-                            >{{$i}}</option>
-                        @endfor
-                    </select>
+                        <input type="time" name="openingTime" id="openingTime" class="form-control" value="{{ $city->openingTime }}">
                 </div>
                 <div class="col">
                     <label for="closingTime">по:</label>
-                    <select name="closingTime" id="closingTime" class="form-control">
-
-                        @for($i=0; $i<=24; $i++)
-                            <option value="{{ $i }}"
-                                    @if($estation->closingTime == $i) selected @endif>
-                                {{$i}}
-                            </option>
-                        @endfor
-                    </select>
+                        <input type="time" name="closingTime" id="closingTime" class="form-control" value="{{ $city->closingTime }}">
                 </div>
             </div>
             <br>
